@@ -51,4 +51,4 @@ client.on('messageCreate', async message => {
 });
 
 
-client.login('');  // Buraya botunuzun token'ını girin
+client.login(process.env.token);  // Buraya botunuzun token'ını girin
