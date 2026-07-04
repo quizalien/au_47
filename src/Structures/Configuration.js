@@ -29,7 +29,8 @@ module.exports = {
   "attachments": []
 },
 
-    embed2: [{
+    embed2: [
+        {
   "content": null,
   "embeds": [
     {
