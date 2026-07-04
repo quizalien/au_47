@@ -30,7 +30,7 @@ client.on('messageCreate', async message => {
             .setLabel('Add Me')
 	    .setEmoji('1364075075598417952')
             .setStyle('LINK')
-            .setURL('https://discord.com/oauth2/authorize?client_id=1245686536054247446&permissions=8&integration_type=0&scope=bot');
+            .setURL('https://discord.com/oauth2/authorize?client_id=1266866983056703508&permissions=8&integration_type=0&scope=bot');
 
         // Butonu içeren bir satır (row) oluşturuyoruz
         const row = new MessageActionRow().addComponents(button);
