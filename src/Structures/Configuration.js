@@ -28,7 +28,7 @@
                             "id": "1243869797633232927",
                             "animated": true
                         },
-                        "url": "https://discord.gg/uDFzY9MdPp"
+                        "url": "https://discord.gg/MwRBgGGaam"
                     }
                 ]
             }
@@ -50,7 +50,7 @@
                             "id": "1243869797633232927",
                             "animated": true
                         },
-                        "url": "https://discord.gg/uDFzY9MdPp"
+                        "url": "https://discord.gg/MwRBgGGaam"
                     }
                 ]
             }
