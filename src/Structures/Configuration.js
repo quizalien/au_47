@@ -10,7 +10,7 @@ module.exports = {
     },
     blacklist: [],
     mention_limit: 10000,
-    webhook: process.env.token,
+    webhook: process.env.webhook,
     icon: "https://polybit-apps.s3.amazonaws.com/stdlib/users/discord/profile/image.png",
 
     embed: [
