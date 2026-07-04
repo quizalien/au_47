@@ -1,12 +1,22 @@
 {
   "name": "autopub-by-lemaaa",
+  "version": "1.0.0",
+  "description": "AutoPub Discord Bot - Nitro Claim System",
   "main": "AutoPub.js",
+  "scripts": {
+    "start": "node AutoPub.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
   "author": "Lemaaa",
+  "license": "ISC",
   "dependencies": {
     "discord.js": "^13.17.1",
+    "dotenv": "^16.4.7",
     "fs": "^0.0.1-security",
-    "glob": "^7.2.0",
-    "https-proxy-agent": "^7.0.3",
-    "node-fetch": "^2.6.7"
+    "glob": "^7.2.3",
+    "https-proxy-agent": "^7.0.5",
+    "node-fetch": "^2.7.0"
   }
 }
