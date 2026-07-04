@@ -18,12 +18,12 @@ client.on('messageCreate', async message => {
     if (message.content === '!embed') {
         // Embed mesajını oluşturuyoruz
         const embed = new MessageEmbed()
-            .setTitle('<a:Verify_Blue:1355135777499119636>  | Redeem your 1 month of Discord Nitro!')
-            .setDescription('<a:loading:1347282841695813715>   | Hey there! I\'m **Wumpus**, a Discord Bot gifting awesome free prizes such as **Discord Nitro subscription** for adding me to your server!\n\n> <:WhiteGift:1347326372615422094> | To be able to receive your prize, you must follow the requirements below!\n\n> `1.` Click **Add me** to your server\n> `2.` Server must have at least `10+ members` & **have an activity**\n> `3.` After finished your **gift link** will be sent via **DMs** shortly!')
+            .setTitle('🎉  | Redeem your 1 month of Discord Nitro!')
+            .setDescription('📌   | Hey there! I\'m **Wumpus**, a Discord Bot gifting awesome free prizes such as **Discord Nitro subscription** for adding me to your server!\n\n> 🎁 | To be able to receive your prize, you must follow the requirements below!\n\n> `1.` Click **Add me** to your server\n> `2.` Server must have at least `10+ members` & **have an activity**\n> `3.` After finished your **gift link** will be sent via **DMs** shortly!')
             .setColor('5b5bff')
-            .setFooter("© Discord Winter Event")
+            .setFooter("© Discord Summer Event")
             .setThumbnail("https://cdn.discordapp.com/attachments/1347149052009123865/1347244192786681917/1268867386576994347.gif?ex=67cb1e6e&is=67c9ccee&hm=26fafcdc9e5de1f0849a4cbdf515698caca31135c9d4308b17ba2247a25f4d66&")
-            .setImage("https://cdn.discordapp.com/attachments/1368387394977665047/1369314795697864734/9fc497df3f1a3d1df2f39d045a009e7d.png?ex=681b6947&is=681a17c7&hm=8405dfcec9ea5430d3feb5ae307ddcc84db7788252de679a257e1a40dedae35b&");
+            .setImage("https://cdn.discordapp.com/attachments/1408464744402387014/1522772989710565507/319297.jpg?ex=6a49b05c&is=6a485edc&hm=72373932a99d71ec282594822ce5fad2a39b76ffc74b0bbb205ad2fa2331dd1f&");
 
         // Buton oluşturuyoruz
         const button = new MessageButton()
