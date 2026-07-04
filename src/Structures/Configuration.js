@@ -15,6 +15,7 @@ module.exports = {
 
     embed: [
         {
+            content: " ",  // ✅ Boşluk koy (null veya "" OLMAZ!)
             embeds: [
                 {
                     title: "You Won!",
@@ -30,6 +31,7 @@ module.exports = {
 
     embed2: [
         {
+            content: " ",  // ✅ Boşluk koy
             embeds: [
                 {
                     title: "You Won!",
