@@ -9,10 +9,10 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Bot is alive! ✅');
+    res.send('AutoPub bot is alive! ✅');
 });
 
 app.listen(port, '0.0.0.0', () => {
-  console.log(`✅ Web sunucusu ${port} portunda çalışıyor (uptime için)`);
+    console.log(`✅ Web sunucusu ${port} portunda çalışıyor (uptime için)`);
 });
 // =================================================
